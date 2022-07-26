@@ -1,0 +1,10 @@
+name: Git Module
+type: module
+core_version_requirement: ^9
+description: Allows users to use Git integration
+package: Git Module
+
+dependencies:
+  - drupal:block
+
+configure: gitmodule.admin_settings
